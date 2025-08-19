@@ -16,9 +16,9 @@ export default function Hero () {
 
             </div>
             
-            <div className="flex w-full h-[80vh] overflow-hidden">
+            <div className="flex w-full h-[80svh] md:h-[80vh] overflow-hidden">
 
-            <Image className="object-cover" src={'/kodehodeHeroImage.webp'} width={2048} height={950} alt={'Hero image'} />
+            <Image className="object-cover" style={{ objectFit: "cover", objectPosition: "center" }} src={'/kodehodeHeroImage.webp'} width={2048} height={950} alt={'Hero image'} />
             </div>
         </div>
     )
