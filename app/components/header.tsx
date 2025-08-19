@@ -8,7 +8,7 @@ export default function Header () {
             <MenuHamburgerIcon fontSize={'2.2rem'} />
         </div>
         <div data-color-scheme={'auto'} className="hidden md:flex shadow-2xl rounded-2xl justify-between items-center p-4 px-8 max-w-7xl w-full mx-auto">
-            <Heading data-size={'lg'} level={'1'}>
+            <Heading data-size={'lg'}>
                 Kodehode
             </Heading>
             <div className="flex justify-self-end-safe flex-row gap-4 no-underline" data-color-scheme={'auto'}>

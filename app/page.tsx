@@ -7,6 +7,7 @@ import Hero from '@/app/components/hero'
 import SectionOne from '@/app/components/section-1'
 import SectionTwo from '@/app/components/section-2'
 import SectionThree from "@/app/components/section-3";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <SectionOne />
       <SectionTwo />
       <SectionThree />
+      <Footer />
     </div>
   );
 }

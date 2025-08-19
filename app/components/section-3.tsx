@@ -9,7 +9,7 @@ export default function SectionOne () {
             <Card data-color={'neutral'}>
                 <Card.Block>
 
-                <Image src={'/coder.webp'} width={640} height={427} alt={'a coder'} />
+                <Image src={'/idea.webp'} width={640} height={520} alt={'a coder'} />
                 </Card.Block>
             </Card>
             <div data-color={'brand2'}>

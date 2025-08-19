@@ -15,13 +15,10 @@ export default function Hero () {
                 </div>
 
             </div>
-            <div className="hidden sm:flex">
             
-            <Image src={'/kodehodeHeroImage.webp'} width={2048} height={600} alt={'Hero image'} />
-            </div>
-            <div className="flex sm:hidden">
+            <div className="flex w-full h-[80vh] overflow-hidden">
 
-            <Image src={'/kodehodeHeroImageSm.png'} width={2048} height={600} alt={'Hero image'} />
+            <Image className="object-cover" src={'/kodehodeHeroImage.webp'} width={2048} height={950} alt={'Hero image'} />
             </div>
         </div>
     )
