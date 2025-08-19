@@ -13,6 +13,10 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "types": [
+      "@digdir/designsystemet-react/react-types",
+      "@digdir/designsystemet-theme"
+    ],
     "plugins": [
       {
         "name": "next"
